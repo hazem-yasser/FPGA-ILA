@@ -1,0 +1,82 @@
+# ==========================================
+# Vivado & Xilinx Temporary Files
+# ==========================================
+*.log
+*.jou
+*.str
+*.backup.*
+vivado*.str
+vivado*.jou
+xelab*.log
+xsim*.log
+webtalk*.log
+webtalk*.jou
+
+# Vivado generated directories
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.gen/
+
+# Implementation outputs & bitstreams (uncomment if you don't want to track bitstreams)
+*.bit
+*.bin
+*.dcp
+*.sysdef
+*.xsa
+*.ltx
+
+# ==========================================
+# Quartus & Intel FPGA Temporary Files
+# ==========================================
+db/
+incremental_db/
+output_files/
+simulation/
+hc_output/
+hps_isw_handoff/
+
+# Quartus generated reports and status files
+*.rpt
+*.chg
+*.qws
+*.done
+*.summary
+*.smsg
+*.msg
+*.pin
+*.jdi
+*.flow.rpt
+*.map.rpt
+*.fit.rpt
+*.tan.rpt
+*.eda.rpt
+*.sof
+*.pof
+*.rbf
+*.stp.dump
+
+# ==========================================
+# General OS & Editor Artifacts
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# ==========================================
+# Personal Notes & Scratchpad (Local Only)
+# ==========================================
+PlayGround/
+Playground/
+PlayGroud/
